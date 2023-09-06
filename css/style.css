@@ -5,7 +5,7 @@
 }
 
 .container{
-    max-width: 1500px;
+    max-width: 1450px;
     margin: 0 auto;
 }
 
@@ -14,10 +14,59 @@
     flex-wrap: wrap;
 }
 
+.grow-1{
+    flex-grow: 1;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+}
+
 /* HEADER */
 
 header .section{
     background-color: #FF6900;
+}
+
+header .row{
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu a{
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.men-wear{
+    padding: 0 15px;
+}
+
+header .col{
+    color: white;
+}
+
+header figure {
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
 }
 
 .col-4{
@@ -26,9 +75,9 @@ header .section{
 
 /* DEBUG */
 
-.debug header .section{
+/* .debug header .section{
     min-height: 100px;
-}
+} */
 
 .debug .col-4{
     min-height: 40px;
