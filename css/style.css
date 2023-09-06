@@ -69,8 +69,30 @@ header figure {
     width: 150px;
 }
 
+/* MAIN */
+
+.main-content{
+    padding: 75px 0;
+}
+
 .col-4{
     flex-basis: calc(100% / 12 * 4);
+}
+
+.profile-left{
+    padding-right: 20px;
+}
+
+.profile-middle{
+    padding: 0px 10px;
+}
+
+.profile-right{
+    padding-left: 20px;
+}
+
+.top{
+    padding-bottom: 20px;
 }
 
 /* DEBUG */
