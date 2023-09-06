@@ -7,7 +7,7 @@
 }
 
 .container{
-    max-width: 1450px;
+    max-width: 1150px;
     margin: 0 auto;
 }
 
@@ -41,7 +41,7 @@ header .section{
 
 header .row{
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 12px 0;
 }
 
 .nav-menu{
@@ -52,6 +52,7 @@ header .row{
 
 .nav-menu a{
     font-weight: bold;
+    font-size: 14px;
     line-height: 32px;
 }
 
@@ -68,13 +69,13 @@ header figure {
 }
 
 .logo{
-    width: 150px;
+    width: 120px;
 }
 
 /* MAIN */
 
 .main-content{
-    padding: 75px 0;
+    padding: 50px 0;
 }
 
 .col-4{
@@ -86,20 +87,20 @@ figure{
 }
 
 .profile-left{
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .profile-middle{
-    padding: 0px 10px;
+    padding: 0px 5px;
 }
 
 .profile-right{
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
-.top{
+/* .top{
     padding-bottom: 20px;
-}
+} */
 
 .secondimg{
     position: absolute;
@@ -114,7 +115,7 @@ figure:hover .secondimg{
 
 .card-tags{
     position: absolute;
-    bottom: 70px;
+    bottom: 50px;
     z-index: 2;
 }
 
@@ -135,16 +136,16 @@ figure:hover .secondimg{
     background-color: green;
 }
 
-.mid-tag{
+.card-middle .card-tags{
+    left: 5px;
+}
+
+.card-right .card-tags{
     left: 10px;
 }
 
-.last-tag{
-    left: 20px;
-}
-
-.bottom-tags{
-    bottom: 50px
+.main-content .col-4{
+    padding-bottom: 30px;
 }
 
 .heart-tag{
@@ -157,12 +158,40 @@ figure:hover .secondimg{
     z-index: 2;
 }
 
+.heart-tag:hover{
+    color: #FF0000;
+}
+
 .card-left .heart-tag{
     right: 20px;
 }
 
 .card-middle .heart-tag{
     right: 10px;
+}
+
+.brand{
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.clothes{
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.price{
+    font-size: 12px;
+    display: inline-block;
+    color: #FF0000;
+    vertical-align: top;
+}
+
+.original{
+    text-decoration: line-through;
+    color: black;
+    font-weight: 600;
 }
 
 /* DEBUG */
