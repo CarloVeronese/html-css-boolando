@@ -48,6 +48,7 @@ header .row{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
 }
 
 .nav-menu a{
@@ -56,9 +57,9 @@ header .row{
     line-height: 32px;
 }
 
-.men-wear{
+/* .men-wear{
     padding: 0 15px;
-}
+} */
 
 header .col{
     color: white;
