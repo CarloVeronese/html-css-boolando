@@ -79,6 +79,10 @@ header figure {
     flex-basis: calc(100% / 12 * 4);
 }
 
+figure{
+    position: relative;
+}
+
 .profile-left{
     padding-right: 20px;
 }
@@ -93,6 +97,17 @@ header figure {
 
 .top{
     padding-bottom: 20px;
+}
+
+.secondimg{
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: -1;
+}
+
+figure:hover .secondimg{
+    z-index: 1;
 }
 
 /* DEBUG */
