@@ -35,6 +35,12 @@ img{
 
 /* HEADER */
 
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
 header .section{
     background-color: #FF6900;
 }
@@ -76,7 +82,7 @@ header figure {
 /* MAIN */
 
 .main-content{
-    padding: 50px 0;
+    padding: 100px 0 50px;
 }
 
 .col-4{
@@ -98,10 +104,6 @@ figure{
 .profile-right{
     padding-left: 10px;
 }
-
-/* .top{
-    padding-bottom: 20px;
-} */
 
 .secondimg{
     position: absolute;
